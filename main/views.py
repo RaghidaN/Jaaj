@@ -1,7 +1,7 @@
 from django.shortcuts import render, HttpResponse
 from translate import Translator
 
-# Create your views here.
+# Actual translation not currently accurate
 
 def home(request):
     if request.method == "POST":
